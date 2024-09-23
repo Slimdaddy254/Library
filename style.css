@@ -1,20 +1,92 @@
-/* Basic styles for the library */
+
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(14, 82, 82);
+    
   }
+  h1 {
+    text-align: center;
+    color: rgb(246 240, 232);
+
+}
   
-  .book-card {
-    border: 1px solid #333;
+.book-card {
+    border: 1px solid #328573;
     padding: 20px;
     margin: 10px;
     display: inline-block;
-  }
+    background-color: rgb(235, 230, 223);
+    border-radius: 10px;
+}
   
-  #bookForm {
+#bookForm {
     margin-top: 20px;
+ 
+
+}
+form{
+    max-width: 400px;
+    height:min-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(235, 230, 223);;
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 50px;
+}
+
+input[type="texts"]:hover {
+  background-color: #c2ddc3;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+button[type="submit"] {
+    background-color: #bdaa18;
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
   }
-  
+
+  button{
+    background-color: #bdaa18; 
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   #newBookBtn {
+    background-color: #bdaa18; 
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 9% ;
+
+  }
+
   #library {
     margin-top: 20px;
+    
   }
   
